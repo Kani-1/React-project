@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <style>
+            .column {
+            float: left;
+            width: 50%;
+            border-left: black;
+          }
+          
+          /* Clear floats */
+          .row:after {
+            content: "";
+            display: table;
+             clear: both;
+          }
+          
+          /* Responsive layout - makes a two column-layout instead of four columns */
+          @media screen and (max-width: 900px) {
+            .column {
+              width: 50%;
+            }
+          }
+        </style>
+         
+        
+
+    </head>
+    <frameset rows="25%, 25% " cols="25%,25%">
+        <frame src = "fr1.html"  name = "fr1">
+        <frame src = "fr2.html" name = "fr2">
+        <frame src = "fr3.html" name = "fr3">
+        <frame src = "fr4.html" name = "fr4">
+    <body>
+        
+    </body>
+</html>
